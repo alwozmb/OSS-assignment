@@ -22,7 +22,8 @@
 ##### 헤더 크기 (h5)
 ###### 헤더 크기 (h6)
 ```
-![헤더 크기](https://user-images.githubusercontent.com/110728160/194855905-31b2d631-c08a-4d4b-a635-4b9fe99c94f0.png)
+![헤더 크기](https://user-images.githubusercontent.com/110728160/194856071-38a87af2-1923-4f58-bcf0-daf8cfd20f3f.png)
+
 
 
 ### 2-2. 
