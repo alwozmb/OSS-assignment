@@ -152,10 +152,8 @@ It is ~~canceled~~
 ## 2-6. 링크
 `[경로 설명](주소)`로 링크를 첨부할 수 있다.
 ```
-[naver](www.naver.com)
 [my_github](https://github.com/alwozmb)
-```
-[naver](www.naver.com) // 클릭하면 네이버로 이동      
+```     
 [my_github](https://github.com/alwozmb) // 클릭하면 내 깃허브 주소로 이동
 
 
