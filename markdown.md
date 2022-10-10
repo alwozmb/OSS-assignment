@@ -25,15 +25,15 @@
 ## 2-2. 글씨 모양
 '*'의 개수와 '~'의 사용에 따라 글씨 모양을 표현할 수 있다.
 ```
-It is *Italic*
-It is **bold**
+It is *Italic* _Italic_
+It is **bold** __bold__
 It is ***Italic and bold***   
 It is ~~canceled~~ 
 ```
-It is *Italic*   
-It is **bold**   
-It is ***Italic and bold***      
-It is ~~canceled~~    
+It is *Italic* _Italic_
+It is **bold** __bold__
+It is ***Italic and bold***   
+It is ~~canceled~~   
 
 
 ## 2-3. 인용문
@@ -49,21 +49,22 @@ It is ~~canceled~~
 
 
 ## 2-4. 목록
-* **숫자가 없는 리스트**를 작성할 땐 아래처럼 **띄어쓰기 두 칸 혹은 Tab 키**를 사용하여 표현한다.
+* **숫자가 없는 리스트**를 작성할 땐 아래처럼 **띄어쓰기 두 칸 혹은 Tab 키**를 사용하여 표현한다.   
+('*', '-', '+')로 리스트를 표현해 줄 수 있으며, 혼합 사용도 가능하다.
 ```
 * 구매 목록
   * 음식
     * 치킨
-    * 피자
-    * 떡볶이
   * 책
+  
++ 빨강
+  + 주황
+    + 노랑
+    
+- 할 일 목록
+ - 공부
+  - 깃 명령어 복습
 ```
-* 구매 목록
-  * 음식
-    * 치킨
-    * 피자
-    * 떡볶이
-  * 책
 
 * **숫자가 있는(순서가 있는) 리스트**를 작성할 땐 **Tab + 숫자 키**를 사용하여 표현한다. 
 ```
@@ -72,24 +73,65 @@ It is ~~canceled~~
   100. 물과 소금 넣기 //중간에 순서에 맞지 않는 숫자를 넣더라도 순서대로 표시된다.
   3. 전자레인지에 3분
 ```
-* 계란찜 만드는 법
-  1. 계란 풀기
-  100. 물과 소금 넣기
-  3. 전자레인지에 3분
 
 
 ## 2-5. 코드블럭
-백틱(`) 세 개를 위아래로 사용하여 코드블럭을 만들 수 있다.
 
-``` Java
-System.out.println("Hello, World!");
+* `<pre><code>{code}</code></pre>` 이용방식
 ```
-![image](https://user-images.githubusercontent.com/110728160/194866439-68fda398-e11c-4c92-a85e-1caf6684ce81.png)
+<pre>
+<code>
+  public static void main(String[] args) {
+    System.out.println("Hello, World");
+  }
+</code>
+</pre>
+```
+<pre>
+<code>
+  public static void main(String[] args) {
+    System.out.println("Hello, World");
+  }
+</code>
+</pre>
+
+* 코드블럭코드 "```" 이용방식
+
+<pre>
+<code>
+```
+  public static void main(String[] args) {
+    System.out.println("Hello, World");
+  }
+```
+</code>
+</pre>
+```
+  public static void main(String[] args) {
+    System.out.println("Hello, World");
+  }
+```
+
+* 코드블럭코드 옆에 사용 언어를 표현해 주면서 문법 강조도 가능
+<pre>
+<code>
+```java
+  public static void main(String[] args) {
+    System.out.println("Hello, World");
+  }
+```
+</code>
+</pre>
+```java
+  public static void main(String[] args) {
+    System.out.println("Hello, World");
+  }
+```
 
 
 ## 2-6. 링크
+`[경로 설명](주소)`로 링크를 첨부할 수 있다.
 ```
-[경로 설명](주소)로 링크를 첨부할 수 있다.
 [naver](www.naver.com)
 [my_github](https://github.com/alwozmb)
 ```
@@ -98,8 +140,36 @@ System.out.println("Hello, World!");
 
 
 ## 2-7. 이미지
-```
-'![이미지 설명](경로)'로 이미지를 첨부할 수 있다.
-![깃허브로고](https://user-images.githubusercontent.com/110728160/194865498-a78c340f-970f-4228-8e09-5e16d33cfbe2.png)
+`![이미지 설명](경로)`로 이미지를 첨부할 수 있다.
 ```
 ![깃허브로고](https://user-images.githubusercontent.com/110728160/194865498-a78c340f-970f-4228-8e09-5e16d33cfbe2.png)
+```
+![깃허브로고](https://user-images.githubusercontent.com/110728160/194865498-a78c340f-970f-4228-8e09-5e16d33cfbe2.png)
+
+
+## 2-8. 수평선
+아래는 모두 수평선을 표현할 수 있는 방법들이다.
+```
+* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
+```
+* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
+
+
+## 2-9. 줄바꿈
+줄바꿈을 하기 위해서는 문장 마지막에 세 칸 이상 띄어쓰기 해 주어야 한다.   
