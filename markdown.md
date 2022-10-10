@@ -1,4 +1,3 @@
-# 마크다운 태그와 문법
 # 1. 마크다운(Markdown) 태그
 ## 1-1. 마크다운(Markdown) 태그
 
@@ -31,7 +30,10 @@ It is **bold**
 It is ***Italic and bold***   
 It is ~~canceled~~ 
 ```
-![글씨 모양](https://user-images.githubusercontent.com/110728160/194858964-b2a30050-eceb-42c1-892d-3e02844d238d.png)
+It is *Italic*   
+It is **bold**   
+It is ***Italic and bold***      
+It is ~~canceled~~    
 
 
 ## 2-3. 인용문
@@ -41,7 +43,10 @@ It is ~~canceled~~
 >> 2번 인용문
 >>> 3번 인용문
 ```
-![인용문](https://user-images.githubusercontent.com/110728160/194859888-1e6fd283-d08c-4f10-8e67-372971dedc76.png)
+> 1번 인용문
+>> 2번 인용문
+>>> 3번 인용문
+
 
 ## 2-4. 목록
 **숫자가 없는 리스트**를 작성할 땐 아래처럼 **띄어쓰기 두 칸 혹은 Tab 키**를 사용하여 표현한다.
@@ -53,7 +58,12 @@ It is ~~canceled~~
     * 떡볶이
   * 책
 ```
-![기본 리스트](https://user-images.githubusercontent.com/110728160/194861187-bbcc7d7c-2ed4-463f-bb5c-9917de7d16ed.png)
+* 구매 목록
+  * 음식
+    * 치킨
+    * 피자
+    * 떡볶이
+  * 책
 
 **숫자가 있는(순서가 있는) 리스트**를 작성할 땐 **Tab + 숫자 키**를 사용하여 표현한다. 중간에 순서에 맞지 않는 숫자를 넣더라도 순서대로 표시된다.
 ```
@@ -62,5 +72,33 @@ It is ~~canceled~~
   100. 물과 소금 넣기
   3. 전자레인지에 3분
 ```
-![순서 리스트](https://user-images.githubusercontent.com/110728160/194862151-1b096fe2-e240-45f4-b8bf-ab8e70a87eb9.png)
+* 계란찜 만드는 법
+  1. 계란 풀기
+  100. 물과 소금 넣기
+  3. 전자레인지에 3분
 
+
+## 2-5. 코드블럭
+백틱(`) 세 개를 위아래로 사용하여 코드블럭을 만들 수 있다.
+
+``` Java
+System.out.println("Hello, World!");
+```
+![image](https://user-images.githubusercontent.com/110728160/194866439-68fda398-e11c-4c92-a85e-1caf6684ce81.png)
+
+
+## 2-6. 링크
+'''
+[naver](www.naver.com)
+[my_github](https://github.com/alwozmb)
+'''
+[naver](www.naver.com)
+[my_github](https://github.com/alwozmb)
+
+
+## 2-7. 이미지
+```
+'![이미지 설명](경로)'로 이미지를 첨부할 수 있다.
+![깃허브로고](https://user-images.githubusercontent.com/110728160/194865498-a78c340f-970f-4228-8e09-5e16d33cfbe2.png)
+```
+![깃허브로고](https://user-images.githubusercontent.com/110728160/194865498-a78c340f-970f-4228-8e09-5e16d33cfbe2.png)
