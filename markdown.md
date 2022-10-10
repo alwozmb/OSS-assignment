@@ -8,9 +8,7 @@
 윈도우 메모장도 상관없으나 보다 사용이 직관적인 깃헙(Github), 비트버킷(Bitbucket), 워드프레스, 슬랙(Slack), 트렐로(Trello) 등의 서비스에서 작성할 수 있다.
 
 
-
 # 2. 마크다운(Markdown) 문법
-
 ## 2-1. 헤더
 '#'의 개수에 따라 h1부터 h6까지 헤더의 크기를 표현할 수 있다.
 ```
@@ -24,4 +22,24 @@
 ![헤더 크기](https://user-images.githubusercontent.com/110728160/194856071-38a87af2-1923-4f58-bcf0-daf8cfd20f3f.png)
 
 
-## 2-2. 
+## 2-2. 글씨 모양
+'*'의 개수와 '~'의 사용에 따라 글씨 모양을 표현할 수 있다.
+```
+It is *Italic*
+It is **bold**
+It is ***Italic and bold***   
+It is ~~canceled~~ 
+```
+![글씨 모양](https://user-images.githubusercontent.com/110728160/194858964-b2a30050-eceb-42c1-892d-3e02844d238d.png)
+
+
+## 2-3. 인용문
+'>'으로 인용문을 표현해 줄 수 있다.
+```
+> 1번 인용문
+>> 2번 인용문
+>>> 3번 인용문
+```
+![인용문](https://user-images.githubusercontent.com/110728160/194859888-1e6fd283-d08c-4f10-8e67-372971dedc76.png)
+
+## 2-4.
