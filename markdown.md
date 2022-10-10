@@ -35,10 +35,10 @@ It is **bold** __bold__
 It is ***Italic and bold***   
 It is ~~canceled~~ 
 ```
-It is *Italic* _Italic_
-It is **bold** __bold__
-It is ***Italic and bold***   
-It is ~~canceled~~   
+It is *Italic* _Italic_   
+It is **bold** __bold__   
+It is ***Italic and bold***      
+It is ~~canceled~~      
 
 
 ## 2-3. 인용문
