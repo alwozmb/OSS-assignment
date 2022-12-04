@@ -65,61 +65,55 @@ commit/merge 등의 log를 그래프의 형태로 조회
 HEAD 포인터가 가리키는 커밋 정보 확인
 
 * `$ git show <커밋해시값>`   
-특정 커밋 정보를 확인
+특정 커밋 정보를 확
 
 <br>
 
 # 5. clone
-$ git clone [url]
+* ```$ git clone [REPO_URL] [DIR]```   
+[REPO_URL]에는 클론해올 저장소의 주소를 지정하고, [DIR] 인자는 저장소를 복제할 위치를 지정 (생략 가능)   
 
-$ git clone [url] [새로운 폴더명]
-- push
-$ git push
+<br>
 
-$ git push [remote] [branch]               
-- pull
-$ git pull
+# 6. push & pull
+$ git push   
+$ git push [remote] [branch]   
 
-$ git pull [remote] [branch]
-- fetch/merge
-$ git fetch
+$ git pull   
+$ git pull [remote] [branch]   
 
-$ git merge [remote] [branch]
-- branch
+
+# 7. fetch & merge
+$ git fetch   
+$ git merge [remote] [branch]   
+
+<br>
+
+# 8. branch
 $ git branch
-
 $ git branch -a
-
 $ git branch [new-branch]
-
 $ git branch -d [branch]
-
 $ git branch -D [branch]
-- checkout
+
+# 9. checkout
 $ git checkout [branch]
-
 $ git checkout -b [new-branch]
-
 $ git checkout -
-- switch
+
+# 10. switch
 $ git switch [branch]
-
 $ git switch -c [new-branch]
-
 $ git switch -
-- rebase
+
+# 11. rebase
 $ git rebase [branch]
-
 $ git rebase --continue
-
 $ git rebase --abort
-- reset revert
+
+# 12. reset revert
 $ git reset --soft [commit ID]
-
 $ git reset --mixed [commit ID]
-
 $ git reset --hard [commit ID]
-
 $ git reset --hard ORIG_HEAD
-
 $ git revert [commit ID]
